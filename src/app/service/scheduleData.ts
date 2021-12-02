@@ -21,7 +21,7 @@ export const SEASON_SCHEDULE: Schedule [] = [
 export const TEAMS: Team [] = [
     {id:1, name:'RRQ', type: 'Over 37'},
     {id:2, name:'EVOS', type: 'Over 30'},
-    {id:3, name:'AURA', type: 'Over 25'},
-    {id:4, name:'GPX', type: 'Over 16'},
-    {id:5, name:'AE', type: 'Over 20'}
+    {id:3, name:'AURA', type: 'Over 32'},
+    {id:4, name:'GPX', type: 'Over 36'},
+    {id:5, name:'AE', type: 'Over 30'}
 ]
