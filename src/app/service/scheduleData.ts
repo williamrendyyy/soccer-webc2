@@ -1,30 +1,27 @@
 import { Schedule } from "../interface/schedule";
 import { Team } from "../interface/team";
 
-export const SEASON_SCHEDULE:Schedule[] = [
-   
-    {id:1,playingDate:new Date(2021,8,10),HomeTeam: 'Persija',
-    AwayTeam:'Bali United',HomeScore:3,AwayScore:2,
-    RefName:'Joko',notes:'Pertandingan Overtime'},
-    {id:2,playingDate:new Date(2021,8,11),HomeTeam: 'EVOS',
-    AwayTeam:'Persipon',HomeScore:4,AwayScore:2,
-    RefName:'kasjo',notes:'Pertandingan ngelek'},
-    {id:3,playingDate:new Date(2021,8,13),HomeTeam: 'PERSIS SOLO',
-    AwayTeam:'Persipon',HomeScore:2,AwayScore:4,
-    RefName:'Parto',notes:'Pertandingan ada kerusuhan'},
-    {id:4,playingDate:new Date(2021,8,14),HomeTeam: 'RRQ',
-    AwayTeam:'PERSIB',HomeScore:2,AwayScore:4,
-    RefName:'Parto',notes:'Pertandingan 3 kartu merah dari persib'},
-    {id:5,playingDate:new Date(2021,8,15),HomeTeam: 'PERSIS SOLO',
-    AwayTeam:'PERIB',HomeScore:2,AwayScore:3,
-    RefName:'Parto',notes:'Pertandingan aman'},
+export const SEASON_SCHEDULE: Schedule [] = [
+    {id: 1, playingDate:new Date(2021,8,11),HomeTeam: 'RRQ',
+    AwayTeam: 'BLACKLIST',HomeScore:3, AwayScore:1,
+    RefName:'LIAM',notes:'RRQ WIN'},
+    {id: 2, playingDate:new Date(2021,8,12),HomeTeam: 'EVOS',
+    AwayTeam: 'ONIC',HomeScore:3, AwayScore:2,
+    RefName:'LJ',notes:'EVOS WIN'},
+    {id: 3, playingDate:new Date(2021,8,13),HomeTeam: 'AURA',
+    AwayTeam: 'GEEK',HomeScore:3, AwayScore:2,
+    RefName:'GODIVA',notes:'AURA WIN'},
+    {id: 4, playingDate:new Date(2021,8,14),HomeTeam: 'REBELION',
+    AwayTeam: 'GPX',HomeScore:1, AwayScore:3,
+    RefName:'WATT',notes:'GPX WIN'},
+    {id: 5, playingDate:new Date(2021,8,15),HomeTeam: 'BTR',
+    AwayTeam: 'AE',HomeScore:2, AwayScore:3,
+    RefName:'RIPPO',notes:'AE WIN'},
 ]
-
-export const TEAMS:Team [] = [
-    {id:1,name:'EVOS',type:'Over 30'},
-    {id:2,name:'Persipon',type:'Over 30'},
-    {id:3,name:'Persib',type:'Over 30'},
-    {id:4,name:'Persija',type:'Over 30'},
-    {id:5,name:'RRQ',type:'Over 30'},
-    {id:6,name:'Persis Solo',type:'Over 30'},
+export const TEAMS: Team [] = [
+    {id:1, name:'RRQ', type: 'Over 37'},
+    {id:2, name:'EVOS', type: 'Over 30'},
+    {id:3, name:'AURA', type: 'Over 25'},
+    {id:4, name:'GPX', type: 'Over 16'},
+    {id:5, name:'AE', type: 'Over 20'}
 ]
